@@ -9,7 +9,7 @@ import { Message } from '../packages/message'
 export default defineComponent({
   setup() {
     const showMessage = () => {
-      Message()
+      Message('he,lo')
     }
     
     return {

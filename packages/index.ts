@@ -7,7 +7,7 @@ const plugins = [
 
 const install = (app: App) => {
   plugins.forEach((plugin) => {
-    app.use(plugin)
+    app.use(plugin as any)
   })
 }
 

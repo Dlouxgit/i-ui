@@ -1,4 +1,4 @@
-type IType = 'success' | 'warning' | 'info' | 'error'
+export type IType = 'success' | 'warning' | 'info' | 'error'
 export interface IMessageOptions {
   id?: string,
   message?: string,
@@ -6,7 +6,7 @@ export interface IMessageOptions {
   duration?: number,
   center?: boolean,
   onClose?: () => void
-  offse?: number
+  offset?: number
 }
 
 export type IMessageParams = IMessageOptions | string
