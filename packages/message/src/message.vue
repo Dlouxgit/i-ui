@@ -54,8 +54,13 @@ export default defineComponent({
       props.center ? 'is-center' : ''
     ])
 
+    const styles = computed(() => {
+      top: `${props.offset}px`
+    })
+
     return {
-      classs
+      classs,
+      styles
     }
   },
 })
