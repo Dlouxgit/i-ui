@@ -1,8 +1,8 @@
-export type IType = 'success' | 'warning' | 'info' | 'error'
+export type Itype = 'success' | 'warning' | 'info' | 'error'
 export interface IMessageOptions {
   id?: string,
   message?: string,
-  type?: IType,
+  type?: Itype,
   duration?: number,
   center?: boolean,
   onClose?: () => void

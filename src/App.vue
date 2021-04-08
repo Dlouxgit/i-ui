@@ -9,7 +9,10 @@ import { Message } from '../packages/message'
 export default defineComponent({
   setup() {
     const showMessage = () => {
-      Message('he,lo')
+      Message({
+        center: true,
+        type: 'success'
+      })
     }
     
     return {
